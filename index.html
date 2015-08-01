@@ -1,0 +1,40 @@
+	<!--Write a function that returns the largest number in an array-->
+
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Function Returns Largest Number in Array</title>
+		<!--
+		<script src = "main.js"></script>
+		-->
+	</head>
+	</body>
+	
+	<h1>The largest number in the array is:</h1>
+	<p id="demo"></p>
+
+	
+	<script>
+	var x = 234;
+	var y = 60000;
+
+	var nums = [x, y];
+	
+	function myFunction() {
+		if(x < y) {
+			return y;
+		}
+		else {
+			return x;
+		}
+		
+	}
+
+	document.getElementById("demo").innerHTML = myFunction();
+	/*
+	console.log(nums[0]);
+	*/
+	</script>
+	</body>
+</html>
